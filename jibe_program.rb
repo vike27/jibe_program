@@ -1,3 +1,4 @@
+#assign file variable velow the file path of the file you wish to analyze before executing program
 file='JIBE_example_text.txt'
 
 line_array = File.readlines(file).each do |line|
